@@ -1,13 +1,17 @@
 const sounds = ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong'];
 sounds.forEach((sound) => {
-    const btn = document.createElement('button');
-    btn.classList.add('btn');
-    btn.innerText = sound;
-    document.getElementById('buttons').appendChild(btn);
+     // create the button 
+     const btn = document.createElement('button');
+     // add a class btn to the element
+     btn.classList.add('btn');
+     // button label text = string value in the sounds array
+     btn.innerText = sound;
+     // add button to the DOM
+     document.getElementById('buttons').appendChild(btn);
 });
 
 btn.addEventListener('click', () => {
-    document.getElementById('sound').play();
+    document.getElementById(sound).play();
 });
 function stopSounds() {
     sounds.forEach((sound) => {
