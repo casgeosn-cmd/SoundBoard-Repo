@@ -1,11 +1,11 @@
-@import url();
+
 * {
     box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(161, 100, 223);
-    font-family: 'Poppins', sans-serif;
+    background-color: rgb(192, 179, 206);
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
