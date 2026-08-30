@@ -20,7 +20,7 @@ function stopSounds() {
         const song = document.getElementById(sound);
 
         song.pause();
-        song.currentTime=0;
+        song.currentTime = 0;
 
     })
 };
