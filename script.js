@@ -3,7 +3,7 @@ sounds.forEach((sound) => {
     const btn = document.createElement('button');
     btn.classList.add('btn');
     btn.innerText = sound;
-    DocumentFragment.getElementaryById('buttons').appendChild(btn);
+    document.getElementById('buttons').appendChild(btn);
 });
 
 btn.addEventListener('click', () => {
