@@ -7,7 +7,7 @@ sounds.forEach((sound) => {
 });
 
 btn.addEventListener('click', () => {
-    document.getElementById(sound).play();
+    document.getElementById('sound').play();
 });
 function stopSounds() {
     sounds.forEach((sound) => {
