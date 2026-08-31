@@ -19,7 +19,7 @@ body{
 .btn {
     background-color: rgb(160, 120, 200);
     border-radius: 6px;
-    border: 2px;
+    border: 4px;
     border-color: blueviolet;
     color: #fff;
     margin: 1rem;
