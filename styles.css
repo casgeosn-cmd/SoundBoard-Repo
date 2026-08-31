@@ -5,6 +5,7 @@
 
 head{
     title {
+        background-color: rgb(160, 120, 200);
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         display:flex;
         flex-wrap:wrap;
