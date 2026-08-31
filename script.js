@@ -8,14 +8,17 @@ sounds.forEach((sound) => {
      btn.classList.add('btn');
      // button label text = string value in the sounds array
      btn.innerText = sound;
-     
+
+     // add event listener to this button
+     btn.addEventListener('click', () => {
+     document.getElementById(sound).play();
+     });
      // add button to the DOM
      document.getElementById('buttons').appendChild(btn);
 });
 
- btn.addEventListener('click', () => {
-    document.getElementById(sound).play();
-});
+ 
+
 function stopSounds() {
     sounds.forEach((sound) => {
         const song = document.getElementById(sound);
