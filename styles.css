@@ -17,9 +17,10 @@ body{
 }
 
 .btn {
-    background-color: rebeccapurple;
+    background-color: rgb(160, 120, 200);
     border-radius: 6px;
-    border: 1px;
+    border: 2px;
+    border-color: blueviolet;
     color: #fff;
     margin: 1rem;
     padding: 1.5rem 3rem;
