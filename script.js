@@ -12,7 +12,7 @@ sounds.forEach((sound) => {
      document.getElementById('buttons').appendChild(btn);
 });
 
-btn.addEventListener('click', () => {
+ btn.addEventListener('click', () => {
     document.getElementById(sound).play();
 });
 function stopSounds() {
