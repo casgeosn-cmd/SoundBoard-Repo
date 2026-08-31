@@ -17,14 +17,12 @@ sounds.forEach((sound) => {
      document.getElementById('buttons').appendChild(btn);
 });
 
- 
-
+// stop the sounds from overlapping
 function stopSounds() {
     sounds.forEach((sound) => {
-        const song = document.getElementById(sound);
-
-        song.pause();
-        song.currentTime = 0;
+     const snd = document.getElementById(sound);
+      snd.pause();
+      snd.currentTime = 0;
 
     })
 };
