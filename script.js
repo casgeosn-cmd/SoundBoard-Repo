@@ -20,7 +20,7 @@ sounds.forEach((sound) => {
 // stop the sounds from overlapping
 function stopSounds() {
     sounds.forEach((sound) => {
-     const so = document.getElementById(sound);
+     const song = document.getElementById(sound);
       song.pause();
       song.currentTime = 0;
 
